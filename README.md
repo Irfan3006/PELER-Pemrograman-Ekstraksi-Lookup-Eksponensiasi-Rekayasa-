@@ -1,9 +1,3 @@
-# PELER-Pemrograman-Ekstraksi-Lookup-Eksponensiasi-Rekayasa-
-Siap banget 😎🔥
-Ini **README** versi rapi, akademis tapi masih easy to read, cocok buat **laporan, GitHub, atau dokumentasi proyek kriptografi PELER** ✨🔐
-
----
-
 # **PELER Cryptography Method**
 
 ## 📌 Deskripsi

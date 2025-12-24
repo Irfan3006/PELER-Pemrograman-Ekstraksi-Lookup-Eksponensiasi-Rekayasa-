@@ -41,21 +41,23 @@ mapping = {
 reverse_mapping = {v: k for k, v in mapping.items()}
 
 def decrypt(ciphertext):
-    ciphertext = "".join(reversed(ciphertext)).lower()
-    plaintext = ""
+    ciphertext = ciphertext[::-1].lower()
+    result = []
     i = 0
+
     while i < len(ciphertext):
         match = False
         for code, letter in reverse_mapping.items():
             if ciphertext.startswith(code, i):
-                plaintext += letter
+                result.append(letter)
                 i += len(code)
                 match = True
                 break
+
         if not match:
-            i += 1
             return "Tidak ditemukan"
-    return plaintext
+
+    return "".join(result)
 
 if __name__ == "__main__":
     ct = input("Masukkan ciphertext: ")

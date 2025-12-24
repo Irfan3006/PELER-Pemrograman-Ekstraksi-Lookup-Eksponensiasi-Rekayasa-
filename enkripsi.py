@@ -40,13 +40,14 @@ mapping = {
 
 def encrypt(text):
     text = text.upper()
-    ciphertext = ""
+    parts = []
+
     for ch in text:
         if ch in mapping:
-            ciphertext += mapping[ch]
+            parts.append(mapping[ch])
 
-    reverse = "".join(reversed(ciphertext))
-    return reverse
+    ciphertext = "".join(parts)
+    return ciphertext[::-1]
 
 if __name__ == "__main__":
     plaintext = input("Masukkan teks: ")

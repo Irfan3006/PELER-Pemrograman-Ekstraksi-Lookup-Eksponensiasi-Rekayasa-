@@ -41,6 +41,7 @@ mapping = {
 reverse_mapping = {v: k for k, v in mapping.items()}
 
 def decrypt(ciphertext):
+    ciphertext = "".join(reversed(ciphertext)).lower()
     plaintext = ""
     i = 0
     while i < len(ciphertext):

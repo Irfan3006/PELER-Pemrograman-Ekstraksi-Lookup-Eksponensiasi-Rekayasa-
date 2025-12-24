@@ -44,7 +44,9 @@ def encrypt(text):
     for ch in text:
         if ch in mapping:
             ciphertext += mapping[ch]
-    return ciphertext
+
+    reverse = "".join(reversed(ciphertext))
+    return reverse
 
 if __name__ == "__main__":
     plaintext = input("Masukkan teks: ")

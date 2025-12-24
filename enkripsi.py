@@ -1,4 +1,4 @@
-# enkripsi
+# enkripsi script
 mapping = {
     "A": "da778688000ji",
     "B": "ic7575729344jktk",

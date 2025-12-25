@@ -4,7 +4,7 @@
 
 **PELER** adalah metode kriptografi sederhana yang memanfaatkan **bahasa pemrograman** sebagai basis pembentukan kunci enkripsi. Metode ini menggabungkan unsur linguistik dan transformasi numerik untuk menghasilkan ciphertext yang **unik, konsisten, dan mudah direproduksi**.
 
-**PELER (Pemrograman sebagai Basis, Ekstraksi Huruf Akhir, Lookup Data Terbuka, Eksponensiasi Tahun, Rekayasa Inisial Penemu)**
+**PELER (Pemrograman sebagai basis, Ekstraksi huruf akhir, Lookup data terbuka, Eksponensiasi tahun, Rekayasa inisial penemu)**
 
 ---
 
